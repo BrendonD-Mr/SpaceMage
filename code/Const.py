@@ -44,9 +44,9 @@ ENTITY_HEALTH = {
     'Level2Bg2': 999,
     'Level2Bg3': 999,
     'Level2Bg4': 999,
-    'Player1': 300,
+    'Player1': 1000,
     'Player1Shot': 1,
-    'Player2': 300,
+    'Player2': 1000,
     'Player2Shot': 1,
     'Enemy1': 50,
     'Enemy1Shot': 1,
@@ -127,11 +127,11 @@ PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
                     'Player2': pygame.K_LCTRL}
 
 # S
-SPAWN_TIME = 4000
+SPAWN_TIME = 1000
 
 # T
 TIMEOUT_STEP = 100 #100ms
-TIMEOUT_LEVEL = 20000 #20s
+TIMEOUT_LEVEL = 60000 #20s
 # W
 WIN_WIDTH = 576
 WIN_HEIGHT = 324
